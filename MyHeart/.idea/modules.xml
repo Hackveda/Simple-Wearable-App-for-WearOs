@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyHeart.iml" filepath="$PROJECT_DIR$/MyHeart.iml" group="MyHeart" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MyHeart/app" />
+      <module fileurl="file://$PROJECT_DIR$/watchapp/watchapp.iml" filepath="$PROJECT_DIR$/watchapp/watchapp.iml" group="MyHeart/watchapp" />
+    </modules>
+  </component>
+</project>

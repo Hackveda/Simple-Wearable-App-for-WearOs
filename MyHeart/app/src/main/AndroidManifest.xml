@@ -1,0 +1,55 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="hackveda.devanshu.tmheart">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/appimage"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+	
+		<activity
+			android:label="MyHeart"
+			android:name=".activity.LoginPageActivity"
+			android:theme="@style/LoginPageActivityTheme">
+		
+			<intent-filter>
+			
+				<category android:name="android.intent.category.LAUNCHER"/>
+			
+				<action android:name="android.intent.action.MAIN"/>
+			</intent-filter>
+		</activity>
+	
+		<activity
+			android:label=""
+			android:name=".activity.SignUpActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.SubscriptionActivity"
+			android:theme="@style/SubscriptionActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.PaymentActivity"
+			android:theme="@style/PaymentActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.ProfileActivity"
+			android:theme="@style/ProfileActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.ConfigureActivity"
+			android:theme="@style/ConfigureActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.ReferActivity"
+			android:theme="@style/ReferActivityTheme"/>
+	</application>
+</manifest>
